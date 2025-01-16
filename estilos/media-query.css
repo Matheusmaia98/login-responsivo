@@ -7,13 +7,16 @@
     }
 
     section#login {
-        width: 80vw;   
+        width: 80vw;
+        height: 280px;   
     }
 
     section#login > div#imagem {
+        background-image: url(../imagens/pattern4.jpg);
         width: 30%;
         height: 100%;
         float: left;
+        
     }
 
     section#login > div#formulario {
@@ -26,7 +29,7 @@
     }
 
     div#formulario > p {
-        font-size: 1.2em;
+        font-size: 1em;
     }
     
 }
@@ -39,9 +42,11 @@
 
     section#login {
         width: 900px;
+        height: 340px;
     }
 
     section#login > div#imagem {
+        background-image: url(../imagens/pattern3.jpg);
         width: 50%;
         height: 100%;
         float: right;
@@ -59,7 +64,8 @@
     }
 
     div#formulario > p {
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 20px 0px;
     }
     
 }
